@@ -1,6 +1,6 @@
 # Prédiction des Arrêts de Protection d’un Cobot
 
-### Étudiants : EL-GHARSI Imane, Nouhaila Grgouz
+### Étudiants : EL-GHARSI Imane, Nouhaila Gargouz
 
 ## 1. Méthodologie adoptée
 
