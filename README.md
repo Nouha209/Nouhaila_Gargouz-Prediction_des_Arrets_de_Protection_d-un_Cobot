@@ -24,3 +24,11 @@ Les trois modèles, LSTM, RNN et CNN, ont été comparés pour évaluer leur eff
 
 Les hyperparamètres testés comprenaient le taux d'apprentissage (0.001), la taille des lots (64), le nombre d'époques (80), et le taux de dropout (0.3). Ces hyperparamètres ont été choisis après plusieurs tests et ajustements, et ont contribué à optimiser les performances des modèles.
 
+### 3. Instructions pour exécuter l’API et utiliser le modèle
+
+Pour exécuter l'API Flask et utiliser le modèle de prédiction, il est nécessaire de suivre quelques étapes simples. Tout d'abord, vous devez installer *Docker, un outil qui facilite la création et l'exécution de conteneurs d'application. Une fois Docker installé, vous pouvez construire une image Docker à partir du projet en utilisant un fichier **Dockerfile* fourni. Après avoir construit l'image, vous pouvez exécuter l'application Flask dans un conteneur en exposant le port 5000. Cela rendra l'API accessible localement sur *http://localhost:5000*.
+
+Lorsque l'API est en cours d'exécution, vous pouvez tester la prédiction en envoyant une requête POST avec des données JSON via *Postman* ou *cURL*. Les données d'entrée doivent être envoyées sous forme de tableau (par exemple : [1.5, 2.3, 0.7, 4.0]), et l'API renverra la prédiction sous forme de réponse JSON. Cette méthode permet de facilement interagir avec le modèle pour obtenir des prédictions en temps réel.
+
+De plus, pour faciliter la compréhension et l'exécution du modèle, une *vidéo démonstrative* est également disponible. Elle montre l'ensemble du processus d'exécution du modèle, de l'installation à la mise en place de l'API et à la réalisation de prédictions.
+
